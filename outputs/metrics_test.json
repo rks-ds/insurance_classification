@@ -1,0 +1,20 @@
+{
+  "roc_auc": 0.6956319369853206,
+  "pr_auc": 0.5091397810873217,
+  "recall_at_25pct": 0.4714285714285714,
+  "precision_at_25pct": 0.4888888888888889,
+  "threshold": 0.5941718447717821,
+  "accuracy_at_threshold": 0.7309833024118738,
+  "precision_at_threshold": 0.48175182481751827,
+  "recall_at_threshold": 0.4714285714285714,
+  "confusion_matrix": {
+    "tn": 328,
+    "fp": 71,
+    "fn": 74,
+    "tp": 66
+  },
+  "n": 539,
+  "n_positive": 140,
+  "model_name": "logistic_regression",
+  "split": "test"
+}

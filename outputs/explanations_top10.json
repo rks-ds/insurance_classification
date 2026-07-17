@@ -1,0 +1,112 @@
+[
+  {
+    "claim_id": "CCLM-00082",
+    "denial_probability": 0.9499771502033644,
+    "risk_tier": "High",
+    "top_risk_factors": "a referral is required but not on file; required supporting documentation appears to be missing; patient eligibility was not verified before submission",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00082\nPayer type: BCBS\nVisit type: Inpatient\nTotal billed: $87,590\nModel's predicted denial risk: 95% (High risk tier)\nTop risk factors identified by the model: a referral is required but not on file; required supporting documentation appears to be missing; patient eligibility was not verified before submission\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (95% predicted denial probability), mainly because a referral is required but not on file and required supporting documentation appears to be missing. Recommended action: verify a referral exists and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00087",
+    "denial_probability": 0.931142974572516,
+    "risk_tier": "High",
+    "top_risk_factors": "required supporting documentation appears to be missing; patient eligibility was not verified before submission; the claim was submitted 40 days after service (later submissions carry more denial risk)",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00087\nPayer type: BCBS\nVisit type: Inpatient\nTotal billed: $30,741\nModel's predicted denial risk: 93% (High risk tier)\nTop risk factors identified by the model: required supporting documentation appears to be missing; patient eligibility was not verified before submission; the claim was submitted 40 days after service (later submissions carry more denial risk)\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (93% predicted denial probability), mainly because required supporting documentation appears to be missing and patient eligibility was not verified before submission. Recommended action: pull the missing supporting documentation and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00372",
+    "denial_probability": 0.9179622093977552,
+    "risk_tier": "High",
+    "top_risk_factors": "prior authorization is required but not on file; required supporting documentation appears to be missing; expected payment is only 32% of the billed amount",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00372\nPayer type: Medicaid MCO\nVisit type: Outpatient\nTotal billed: $3,453\nModel's predicted denial risk: 92% (High risk tier)\nTop risk factors identified by the model: prior authorization is required but not on file; required supporting documentation appears to be missing; expected payment is only 32% of the billed amount\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (92% predicted denial probability), mainly because prior authorization is required but not on file and required supporting documentation appears to be missing. Recommended action: confirm whether prior authorization was obtained and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00049",
+    "denial_probability": 0.907901413446195,
+    "risk_tier": "High",
+    "top_risk_factors": "prior authorization is required but not on file; a referral is required but not on file; required supporting documentation appears to be missing",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00049\nPayer type: Medicaid MCO\nVisit type: Outpatient\nTotal billed: $5,581\nModel's predicted denial risk: 91% (High risk tier)\nTop risk factors identified by the model: prior authorization is required but not on file; a referral is required but not on file; required supporting documentation appears to be missing\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (91% predicted denial probability), mainly because prior authorization is required but not on file and a referral is required but not on file. Recommended action: confirm whether prior authorization was obtained and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00344",
+    "denial_probability": 0.898209933815455,
+    "risk_tier": "High",
+    "top_risk_factors": "prior authorization is required but not on file; required supporting documentation appears to be missing; the payer type is Commercial",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00344\nPayer type: BCBS\nVisit type: Emergency\nTotal billed: $5,743\nModel's predicted denial risk: 90% (High risk tier)\nTop risk factors identified by the model: prior authorization is required but not on file; required supporting documentation appears to be missing; the payer type is Commercial\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (90% predicted denial probability), mainly because prior authorization is required but not on file and required supporting documentation appears to be missing. Recommended action: confirm whether prior authorization was obtained and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00446",
+    "denial_probability": 0.896972838289828,
+    "risk_tier": "High",
+    "top_risk_factors": "required supporting documentation appears to be missing; patient eligibility was not verified before submission; expected payment is only 38% of the billed amount",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00446\nPayer type: Medicaid MCO\nVisit type: Inpatient\nTotal billed: $25,544\nModel's predicted denial risk: 90% (High risk tier)\nTop risk factors identified by the model: required supporting documentation appears to be missing; patient eligibility was not verified before submission; expected payment is only 38% of the billed amount\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (90% predicted denial probability), mainly because required supporting documentation appears to be missing and patient eligibility was not verified before submission. Recommended action: pull the missing supporting documentation and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00136",
+    "denial_probability": 0.8922102611717936,
+    "risk_tier": "High",
+    "top_risk_factors": "a referral is required but not on file; required supporting documentation appears to be missing; the total billed amount is $95,000",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00136\nPayer type: Medicare Advantage\nVisit type: Inpatient\nTotal billed: $95,000\nModel's predicted denial risk: 89% (High risk tier)\nTop risk factors identified by the model: a referral is required but not on file; required supporting documentation appears to be missing; the total billed amount is $95,000\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (89% predicted denial probability), mainly because a referral is required but not on file and required supporting documentation appears to be missing. Recommended action: verify a referral exists and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00285",
+    "denial_probability": 0.8873865873860267,
+    "risk_tier": "High",
+    "top_risk_factors": "prior authorization is required but not on file; required supporting documentation appears to be missing; the expected payment is $38,261",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00285\nPayer type: Commercial\nVisit type: Inpatient\nTotal billed: $71,797\nModel's predicted denial risk: 89% (High risk tier)\nTop risk factors identified by the model: prior authorization is required but not on file; required supporting documentation appears to be missing; the expected payment is $38,261\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (89% predicted denial probability), mainly because prior authorization is required but not on file and required supporting documentation appears to be missing. Recommended action: confirm whether prior authorization was obtained and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00259",
+    "denial_probability": 0.8747149470525623,
+    "risk_tier": "High",
+    "top_risk_factors": "prior authorization is required but not on file; a referral is required but not on file; expected payment is only 35% of the billed amount",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00259\nPayer type: Medicaid MCO\nVisit type: Inpatient\nTotal billed: $11,715\nModel's predicted denial risk: 87% (High risk tier)\nTop risk factors identified by the model: prior authorization is required but not on file; a referral is required but not on file; expected payment is only 35% of the billed amount\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (87% predicted denial probability), mainly because prior authorization is required but not on file and a referral is required but not on file. Recommended action: confirm whether prior authorization was obtained and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00028",
+    "denial_probability": 0.8688563762178404,
+    "risk_tier": "High",
+    "top_risk_factors": "required supporting documentation appears to be missing; patient eligibility was not verified before submission; this is an inpatient visit",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00028\nPayer type: Medicaid MCO\nVisit type: Inpatient\nTotal billed: $9,343\nModel's predicted denial risk: 87% (High risk tier)\nTop risk factors identified by the model: required supporting documentation appears to be missing; patient eligibility was not verified before submission; this is an inpatient visit\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as high risk (87% predicted denial probability), mainly because required supporting documentation appears to be missing and patient eligibility was not verified before submission. Recommended action: pull the missing supporting documentation and attach it before submission. This is a model-based risk estimate, not a guarantee the claim will be denied.",
+    "source": "manual_draft (LLM API unavailable)"
+  },
+  {
+    "claim_id": "CCLM-00442",
+    "denial_probability": 0.0988862353770938,
+    "risk_tier": "Low",
+    "top_risk_factors": "this is an outpatient visit; the claim lists 2 procedure codes; this is an emergency visit",
+    "system_prompt": "You are writing short risk notes for a hospital billing analyst who reviews flagged insurance claims before they are submitted. The analyst has seconds, not minutes, to read each note and decide what to do next.\n\nRules you must follow:\n- Use ONLY the claim facts and risk factors given to you below. Never invent, assume, or infer any fact not explicitly provided (no guessing at a diagnosis, a patient detail, a policy, or a reason not listed).\n- Plain English only. No insurance or billing jargon the analyst would need to look up (e.g. avoid terms like \"adjudication\", \"COB\", \"timely filing\" without explanation).\n- Include exactly one specific, concrete recommended action the analyst can take right now.\n- Explicitly state that this is a risk estimate, not a guarantee the claim will be denied.\n- Write exactly 2-3 sentences. No preamble, no headers, no bullet points.",
+    "user_prompt": "Claim ID: CCLM-00442\nPayer type: Commercial\nVisit type: Observation\nTotal billed: $1,843\nModel's predicted denial risk: 10% (Low risk tier)\nTop risk factors identified by the model: this is an outpatient visit; the claim lists 2 procedure codes; this is an emergency visit\n\nWrite the 2-3 sentence risk note for this claim.",
+    "explanation": "This claim is flagged as low risk (10% predicted denial probability); the model did not find a specific documentation, authorization, or eligibility gap driving this score. Recommended action: no special pre-submission review needed -- proceed with normal submission. This is a model-based risk estimate, not a guarantee the claim will be paid.",
+    "source": "manual_draft (LLM API unavailable)"
+  }
+]
