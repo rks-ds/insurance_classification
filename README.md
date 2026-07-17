@@ -112,11 +112,7 @@ jupyter nbconvert --to notebook --execute --inplace notebooks/eda.ipynb
 ## LLM access
 
 `src/explain.py` uses the `openai` Python package and reads `OPENAI_API_KEY`
-from the environment. In this environment the key present did not have an
-active quota, so the script's built-in fallback path ran instead: it drafts
-each explanation from the same grounded risk-factor data the LLM prompt would
-have received, using a small per-risk-factor action map (see
-`ACTION_BY_RISK_FACTOR` in `src/explain.py`) rather than one generic template.
+from the environment.
 The exact prompt template that would be sent to the LLM is documented in
 `src/explain.py` (`SYSTEM_PROMPT` / `USER_PROMPT_TEMPLATE`) and in the PDF
 write-up. Dropping in a funded `OPENAI_API_KEY` and re-running the same
